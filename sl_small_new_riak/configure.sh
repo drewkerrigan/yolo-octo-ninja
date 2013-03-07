@@ -12,7 +12,7 @@ cp vm.args /etc/riak/vm.args
 cp riak.conf /etc/sysctl.d/riak.conf
 sysctl -p
 
-cp riak_limits.conf /etc/security/limits.d/riak.conf
+cat riak_limits.conf >> /etc/security/limits.conf
 
 echo noop > /sys/block/sda/queue/scheduler
 echo 1024 > /sys/block/sda/queue/nr_requests
