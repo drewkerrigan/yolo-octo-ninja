@@ -12,6 +12,8 @@ cp vm.args /etc/riak/vm.args
 cp riak.conf /etc/sysctl.d/riak.conf
 sysctl -p
 
+cp riak_limits.conf /etc/security/limits.d/riak.conf
+
 echo noop > /sys/block/sda/queue/scheduler
 echo 1024 > /sys/block/sda/queue/nr_requests
 mount -o remount,noatime,nodiratime,barrier=0 /dev/sda6
