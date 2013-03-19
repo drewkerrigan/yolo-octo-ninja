@@ -17,7 +17,7 @@ All Nodes:
 riak start
 ```
 
-Node 1, get ip address (<ip>):
+Node 1, get ip address:
 ```
 /sbin/ifconfig|grep inet|head -1|sed 's/\:/ /'|awk '{print $3}'
 ```
