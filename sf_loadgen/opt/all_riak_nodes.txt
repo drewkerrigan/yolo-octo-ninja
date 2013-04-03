@@ -1,0 +1,15 @@
+riak0x56.test.statefarm.com
+riak0x57.test.statefarm.com
+riak0x58.test.statefarm.com
+riak0x59.test.statefarm.com
+riak0x5a.test.statefarm.com
+riak0x5h.test.statefarm.com
+riak0x5i.test.statefarm.com
+riak0x5j.test.statefarm.com
+riak0x5k.test.statefarm.com
+riak0x5t.test.statefarm.com
+riak0x5b.test.statefarm.com
+riak0x5d.test.statefarm.com
+riak0x5e.test.statefarm.com
+riak0x5r.test.statefarm.com
+riak0x5s.test.statefarm.com
